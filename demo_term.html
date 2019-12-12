@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="static/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="node_modules/xterm/css/xterm.css"/>
+    <script src="static/term.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div id="content">
+    <form id="ff" style="margin-left:20px">
+            <div>
+                <label>ip:</label>
+                <!--<select id="ip" name="ip" value="ip" style="width:100px"></select>-->
+                <input id="ip" name="ip" type="text" style="width:120px">
+                <label>username:</label>
+                <input id="username" name="username" type="text" style="width:100px">
+                <label>password:</label>
+                <input id="password" name="password" type="text" style="width:100px">
+                <label>timeout:</label>
+                <input name="timeout" type="text" style="width:50px">
+                <input id = "login" type="submit" value="Login">
+            </div>
+    </form>
+    <div id="container-terminal" style="width: 800px ;height: 500px"></div>
+</div>
+<script src="static/jump_term.js"></script>
+</body>
+</html>
