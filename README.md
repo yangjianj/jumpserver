@@ -7,3 +7,6 @@
 ![效果图](static/img/jumpserver.PNG)    
 
 可用平台： 自动化平台，运维管理平台等    
+
+注意点：
+1.后端往前端传输字符串时需转为base64以免部分不支持utf-8字符乱码导致websocket中断
